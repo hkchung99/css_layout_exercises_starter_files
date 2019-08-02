@@ -13,7 +13,7 @@ nav {
 	background-color: gray;
 }
 
-img {
+.icon {
 	border-radius: 50%;
 	border: solid black 1px;
 	left: 40px;
@@ -47,13 +47,11 @@ li:after {
 }
 
 .cat{
-	background-image: url("../images/spacecat.png");
 	left: -100px;
 	top: -100px;
 }
 
 .dog{
-	background-image: url("../images/spacedog.png");
 	right: -100px;
 	bottom: -100px;
 }
