@@ -1,5 +1,5 @@
 html {
-	background: url("C:/Users/hkchu/Desktop/projects/css_layout_exercises_starter_files/images/outerspace_landscape.jpeg") no-repeat center center fixed;
+	background: url("../images/outerspace_landscape.jpeg") no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -13,7 +13,7 @@ nav {
 	background-color: gray;
 }
 
-img {
+.icon {
 	border-radius: 50%;
 	border: solid black 1px;
 	left: 40px;
@@ -47,13 +47,11 @@ li:after {
 }
 
 .cat{
-	background-image: url("C:/Users/hkchu/Desktop/projects/css_layout_exercises_starter_files/images/spacecat.png");
 	left: -100px;
 	top: -100px;
 }
 
 .dog{
-	background-image: url("C:/Users/hkchu/Desktop/projects/css_layout_exercises_starter_files/images/spacedog.png");
 	right: -100px;
 	bottom: -100px;
 }
