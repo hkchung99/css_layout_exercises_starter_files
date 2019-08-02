@@ -1,1 +1,59 @@
+html {
+	background: url("C:/Users/hkchu/Desktop/projects/css_layout_exercises_starter_files/images/outerspace_landscape.jpeg") no-repeat center center fixed;
+	background-size: cover;
+}
 
+nav {
+	top: 0px;
+	padding-right: 60px;
+	padding-left: 60px;
+	position: fixed;
+	width: 100%;
+	text-align: left;
+	background-color: gray;
+}
+
+img {
+	border-radius: 50%;
+	border: solid black 1px;
+	left: 40px;
+	position: absolute;
+	height: 50px;
+}
+
+li {
+	display: inline-block;
+}
+
+li:after {
+	content: " | ";
+}
+
+
+.box {
+	position: relative;
+	border: 10px green dotted;
+	width: 600px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 200px;
+}
+
+.pic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+}
+
+.cat{
+	background-image: url("C:/Users/hkchu/Desktop/projects/css_layout_exercises_starter_files/images/spacecat.png");
+	left: -100px;
+	top: -100px;
+}
+
+.dog{
+	background-image: url("C:/Users/hkchu/Desktop/projects/css_layout_exercises_starter_files/images/spacedog.png");
+	right: -100px;
+	bottom: -100px;
+}
